@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+	<channel>
+		<title>Workspace ONE Admin Assistant Changelog</title>
+		<description>Most recent changes with links to updates.</description>
+		<language>en</language>
+		<!--  Mac Installer  -->
+		<item>
+			<title>Version 24.12</title>
+			<enclosure sparkle:os="mac"
+                    url="https://ilanchezhiank.github.io/WS1AdminAssistant.dmg"
+                    sparkle:version="24.12"
+                    length="59299616"
+                    type="application/octet-stream" 
+                    sparkle:dsaSignature="BAFJW4B6B1K1JyW30nbkBwainOzrN6EQuAh" />
+		</item>
+	</channel>
+</rss>
