@@ -10,7 +10,7 @@
 		<item>
 			<title>Version 24.12</title>
 			<enclosure sparkle:os="mac"
-                    url="https://ilanchezhiank.github.io/WS1AdminAssistant.dmg"
+                    url="https://artifactory.air-watch.com/artifactory/github-publish-local/euc-uem/adminassistant-macos/Admin%20Assistant%20PR%20Plan/76/build-macos/1/admin_assistant_pr_release_pkg/WS1AdminAssistant.dmg"
                     sparkle:version="24.12"
                     length="59299616"
                     type="application/octet-stream" 
