@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ilanchezhian Kuppusamy – Staff Engineer</title>
+<meta name="description" content="Staff Engineer with 19+ years of experience in enterprise mobility, security, and iOS/macOS solutions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EEF2F4; --ink:#14202B; --muted:#52606D; --rule:#C9D3DA;
+  --accent:#0F5C73; --accent-soft:#D6E6EC; --surface:#F8FAFB;
+  --head:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#10181F; --ink:#E6EDF2; --muted:#9AA9B5; --rule:#2A3945; --accent:#6FC3DA; --accent-soft:#1B2E38; --surface:#16212A; color-scheme:dark}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.65 var(--body)}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--head);margin:0;line-height:1.1}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.5rem}
+
+/* hero */
+header{padding:4.5rem 0 2.5rem;border-bottom:1px solid var(--rule)}
+h1{font-size:clamp(2.8rem,9vw,6rem);font-weight:700;letter-spacing:-.03em}
+.role{font:500 1.25rem var(--head);color:var(--accent);margin:.75rem 0 0}
+.summary{max-width:42rem;margin:1.5rem 0 0;font-size:1.15rem}
+
+/* career bar: widths proportional to months worked */
+.career{margin-top:2.5rem}
+.bar{display:flex;gap:3px;height:2.75rem}
+.bar div{background:var(--accent-soft);border-radius:3px;padding:.5rem .6rem;font:500 .8rem/1.2 var(--head);overflow:hidden;white-space:nowrap;display:flex;align-items:center}
+.bar div.now{background:var(--accent);color:var(--paper)}
+.bar div.long{background:var(--ink);color:var(--paper)}
+.ticks{display:flex;justify-content:space-between;font:500 .8rem var(--head);color:var(--muted);margin-top:.4rem}
+
+/* layout */
+.grid{display:grid;grid-template-columns:240px 1fr;gap:3rem;padding:3rem 0 4rem}
+aside{font-size:.98rem}
+aside h2{font-size:1rem;margin-bottom:.6rem}
+aside section{margin-bottom:2rem}
+aside ul{list-style:none;margin:0;padding:0}
+aside li{padding:.2rem 0}
+.contact li{overflow-wrap:anywhere}
+@media (min-width:821px){aside{position:sticky;top:1.5rem;align-self:start}}
+@media (max-width:820px){.grid{grid-template-columns:1fr;gap:1rem}}
+
+main section{margin-bottom:3rem}
+main>section>h2{font-size:1.9rem;letter-spacing:-.01em;margin-bottom:1.5rem}
+.job{display:grid;grid-template-columns:150px 1fr;gap:1.5rem;padding:1.5rem 0;border-top:1px solid var(--rule)}
+.job:first-of-type{border-top:0;padding-top:0}
+.dates{font:500 .9rem/1.4 var(--head);color:var(--muted)}
+.job h3{font-size:1.3rem;letter-spacing:-.005em}
+.org{margin:.2rem 0 .8rem;color:var(--muted)}
+.job p{margin:.6rem 0}
+.job ul{margin:.6rem 0;padding-left:1.2rem}
+.job li{margin:.35rem 0}
+.focus{font-size:.95rem;color:var(--muted)}
+.focus b{font-family:var(--head);color:var(--ink)}
+@media (max-width:620px){.job{grid-template-columns:1fr;gap:.25rem}}
+
+.patents{list-style:none;padding:0;margin:0}
+.patents li{display:grid;grid-template-columns:150px 1fr;gap:1.5rem;padding:.8rem 0;border-top:1px solid var(--rule)}
+.patents li:first-child{border-top:0}
+.patents code{font:500 .9rem var(--head);color:var(--accent)}
+@media (max-width:620px){.patents li{grid-template-columns:1fr;gap:0}}
+
+footer{border-top:1px solid var(--rule);padding:1.5rem 0 3rem;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Ilanchezhian Kuppusamy</h1>
+    <p class="role">Staff Engineer</p>
+    <p class="summary">19+ years of software engineering experience, including 13 years at VMware/Omnissa. Technical leadership and design and development of enterprise mobility, security, and iOS/macOS solutions. Now building health and wellness applications with Swift and SwiftUI. Contributor to multiple approved patents, with strengths in architecture, problem-solving, and engineering quality.</p>
+
+    <div class="career" role="img" aria-label="Career timeline: Tekton Technologies 2007 to 2010, Sourcebits 2010 to 2012, VMware/Omnissa 2012 to 2025, Airia 2025 to present">
+      <div class="bar" aria-hidden="true">
+        <div style="flex:43">Tekton</div>
+        <div style="flex:17" title="Sourcebits">Sourcebits</div>
+        <div class="long" style="flex:154">VMware / Omnissa</div>
+        <div class="now" style="flex:22">Airia</div>
+      </div>
+      <div class="ticks" aria-hidden="true"><span>2007</span><span>2010</span><span>2012</span><span>2025</span><span>Now</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap grid">
+  <aside>
+    <section class="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Bangalore 560114, India</li>
+        <li><a href="tel:+919740759402">9740759402</a></li>
+        <li><a href="mailto:ilanchezhiank@yahoo.com">ilanchezhiank@yahoo.com</a></li>
+        <li><a href="https://www.linkedin.com/in/ilanchezhiank/" id="linkedin">LinkedIn</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Technical Leadership</li>
+        <li>Problem Solving</li>
+        <li>Quick Learner</li>
+        <li>Mobile Applications</li>
+        <li>Innovation</li>
+        <li>MDM</li>
+        <li>Mentorship</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <p style="margin:0">BE ECE<br>College of Engineering Guindy<br><span style="color:var(--muted)">Jul 2002 – Sept 2007</span></p>
+    </section>
+    <section>
+      <h2>Events</h2>
+      <ul>
+        <li>Runner-up, Global Borathon in VMware (July 2023)</li>
+        <li>Runner-up, Borathon India (March 2014)</li>
+      </ul>
+    </section>
+  </aside>
+
+  <main>
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <article class="job">
+        <div class="dates">Jan 2025 – Present</div>
+        <div>
+          <h3>Research &amp; Development</h3>
+          <p class="org">Airia, Bangalore</p>
+          <p>Designing and developing scalable health and wellness applications, including Arii, Nicoya, and HeadsUp, using Swift, SwiftUI, and modern iOS practices.</p>
+          <ul>
+            <li><b>Software architecture:</b> modular, scalable application architecture using MVVM and Clean Architecture principles.</li>
+            <li><b>SDK development:</b> extensible SDK capabilities for integration with third-party health and wellness applications.</li>
+            <li><b>Health data:</b> aggregation, synchronization, and integration of health data across applications.</li>
+            <li><b>Technical leadership:</b> guiding design decisions and promoting reusable components, engineering best practices, and scalable development approaches.</li>
+          </ul>
+          <p class="focus"><b>Core expertise:</b> Swift, SwiftUI, SDK Development, Health Data Interoperability, Data Synchronization, Modular Architecture.</p>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="dates">Mar 2012 – Jan 2025</div>
+        <div>
+          <h3>Staff Engineer 1</h3>
+          <p class="org">VMware / Omnissa, Bangalore</p>
+          <p>Led projects and initiatives and provided technical leadership across the Workspace ONE product ecosystem, driving design and development of enterprise mobility and security solutions on iOS and macOS.</p>
+          <ul>
+            <li>Led technical initiatives across multiple products, taking complex engineering projects from design through delivery.</li>
+            <li>Influenced technical direction and engineering standards across cross-functional teams.</li>
+            <li>Resolved complex cross-product challenges and critical customer issues through root-cause analysis.</li>
+            <li>Championed code quality, design reviews, engineering best practices, and technical guidance.</li>
+            <li>Held key technical leadership roles on Workspace ONE Content, Workspace ONE for iOS/macOS, and Workspace ONE Hub for iOS/macOS.</li>
+          </ul>
+          <p class="focus"><b>Core expertise:</b> iOS/macOS Engineering, MDM, Mobile Security, macOS Daemons, File Systems, App Extensions, System Extensions, Endpoint Security, Encryption/Decryption, Platform SSO, UI Development, Testing.</p>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="dates">Sept 2010 – Feb 2012</div>
+        <div>
+          <h3>Senior Software Engineer</h3>
+          <p class="org">Sourcebits, Bangalore</p>
+          <p>Involved from requirements gathering through design and development. Applications delivered: Nightstand, AccountEdge, Blink booking.</p>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="dates">Feb 2007 – Sept 2010</div>
+        <div>
+          <h3>Software Engineer</h3>
+          <p class="org">Tekton Technologies, Chennai</p>
+          <p>Started as a graduate engineer working across DRM, J2ME, and iOS development. Self-learned iOS and led the mobile development team. Delivered the iOS apps i15Classic and System Activity Monitors.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="patents">
+      <h2>Patents</h2>
+      <ul class="patents">
+        <li><code>US9584508B2</code><span>Peer to peer enterprise file sharing</span></li>
+        <li><code>US10708051B2</code><span>Controlled access to data in a sandboxed environment</span></li>
+        <li><code>US20170046339A1</code><span>Multimedia searching</span></li>
+        <li><code>US12079775B2</code><span>Containerized contextual conversation system</span></li>
+      </ul>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">© <span id="yr">2026</span> Ilanchezhian Kuppusamy</div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
